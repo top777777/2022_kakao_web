@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/124a781f37.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/friends.css" />
+    <title>친구목록</title>
+  </head>
+  <body>
+    <nav class="left-menu">
+      <div class="left-upper">
+        <i class="fa-solid fa-user"></i>
+        <a href="chatting.html"> <i class="fa-solid fa-comment"></i></a>
+        <a href="more.html"><i class="fa-solid fa-ellipsis"></i></a>
+      </div>
+      <div class="left-down">
+        <i class="fa-regular fa-face-smile"></i>
+        <i class="fa-regular fa-bell"></i>
+        <i class="fa-solid fa-gear"></i>
+      </div>
+    </nav>
+    <div class="main-nav">
+      <div class="header-menu">
+        <span class="header-menu__min">➖</span>
+        <span class="header-menu__max">⬜</span>
+        <span class="header-menu__end">❌</span>
+      </div>
+      <div class="main-menu">
+        <span class="main-friend">친구</span>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-user-plus"></i>
+      </div>
+      <div class="multi-profile">
+        <span class="multi-profile__title">내 멀티프로필</span>
+        <i class="fa-solid fa-angle-up"></i>
+        <div class="multi-profile__menu">
+          <i class="fa-regular fa-square-plus"></i>
+          <span class="multi-profile__explain"
+            >친구별로 다른 프로필을 설정해보세요!</span
+          >
+        </div>
+      </div>
+      <hr class="main-nav__hr1" color="gray" />
+      <div class="update-profile">
+        <div class="update-profile__menu">
+          <span class="update-profile__title">업데이트한 친구</span>
+          <i class="fa-solid fa-angle-up"></i>
+        </div>
+        <div class="update-profile__main">
+          <img class="update-profile__pic" src="./img/update_friend.jpg" />
+          <span class="update-profile__text"
+            >친구의 프로필을 확인해보세요!</span
+          >
+          <span class="update-profile__number">20</span>
+        </div>
+      </div>
+      <hr class="main-nav__hr2" color="gray" />
+      <div class="favorite-people">
+        <div class="favorite-people__menu">
+          <span class="favorite-people__title">즐겨찾기</span>
+          <i class="fa-solid fa-angle-up"></i>
+        </div>
+        <div class="favorite-people__main">
+          <img class="favorite-people__pic" src="./img/favorite_friend.jpg" />
+          <span class="favorite-people__text">가족 단톡방</span>
+        </div>
+      </div>
+      <hr class="main-nav__hr3" color="gray" />
+      <div class="channel-profile">
+        <div class="channel-people__menu">
+          <span class="channel-people__title">채널</span>
+          <i class="fa-solid fa-angle-up"></i>
+        </div>
+        <div class="channel-people__main">
+          <img class="channel-people__pic" src="./img/channel_friend.jpg" />
+          <span class="channel-people__text">채널</span>
+          <span class="channel-people__number">6</span>
+        </div>
+      </div>
+      <hr class="main-nav__hr4" color="gray" />
+      <div class="friend-profile">
+        <div class="friend-people__menu">
+          <span class="friend-people__title">친구</span>
+          <span class="friend-people__number">1</span>
+          <i class="fa-solid fa-angle-up"></i>
+        </div>
+        <div class="friend-people__main">
+          <img class="friend-people__pic" src="./img/friend_friend.jpg" />
+          <span class="friend-people__text">김상범</span>
+        </div>
+      </div>
+    </div>
+    <div id="no-mobile">
+      <span>Bye, bye... Your Screen is too small...ㅠㅠ</span>
+    </div>
+  </body>
+</html>

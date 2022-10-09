@@ -1,0 +1,168 @@
+@import './no-mobile.css';
+body {
+  display: flex;
+  margin: 0 auto;
+  width: 510px;
+  height: 100vh;
+}
+.left-menu {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 820px;
+  background-color: #ececed;
+}
+.left-menu > * {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22px;
+}
+.left-upper {
+  margin-top: 60px;
+  margin-bottom: 370px;
+}
+.left-upper > * {
+  margin-bottom: 40px;
+}
+.left-upper > .fa-comment {
+  opacity: 0.3;
+}
+.left-upper > .fa-ellipsis {
+  opacity: 0.3;
+}
+.left-down > * {
+  margin-bottom: 40px;
+}
+.main-nav {
+  width: 410px;
+  height: 820px;
+  background-color: rgb(251, 255, 255);
+}
+.header-menu {
+  display: flex;
+  justify-content: flex-end;
+}
+.header-menu > * {
+  margin-left: 10px;
+}
+.main-menu > * {
+  font-size: 20px;
+  font-weight: 800;
+  margin-left: 15px;
+  margin-top: 30px;
+}
+.main-friend {
+  margin-right: 250px;
+}
+.multi-profile {
+  margin-left: 15px;
+  justify-content: center;
+  margin-top: 10px;
+}
+.multi-profile .fa-angle-up {
+  float: right;
+  margin-right: 28px;
+}
+.multi-profile__menu {
+  display: flex;
+  margin-top: 25px;
+  align-items: center;
+}
+.fa-square-plus {
+  font-size: 50px;
+}
+.multi-profile__explain {
+  font-weight: 500;
+  font-size: 15px;
+  margin-left: 20px;
+}
+.update-profile {
+  margin-left: 15px;
+  justify-content: center;
+  margin-top: 10px;
+}
+.update-profile__main {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.update-profile__main > * {
+  margin-right: 15px;
+}
+.update-profile__menu > i {
+  float: right;
+  margin-right: 28px;
+}
+.update-profile__pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 30%;
+}
+.favorite-people {
+  margin-left: 15px;
+  justify-content: center;
+  margin-top: 10px;
+}
+.favorite-people__main {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.favorite-people__main > * {
+  margin-right: 15px;
+}
+.favorite-people__menu > i {
+  float: right;
+  margin-right: 28px;
+}
+.favorite-people__pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 30%;
+}
+.channel-profile {
+  margin-left: 15px;
+  justify-content: center;
+  margin-top: 10px;
+}
+.channel-people__main {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.channel-people__main > * {
+  margin-right: 15px;
+}
+.channel-people__menu > i {
+  float: right;
+  margin-right: 28px;
+}
+.channel-people__pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 30%;
+}
+.friend-profile {
+  margin-left: 15px;
+  justify-content: center;
+  margin-top: 10px;
+}
+.friend-people__main {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.friend-people__main > * {
+  margin-right: 15px;
+}
+.friend-people__menu > i {
+  float: right;
+  margin-right: 28px;
+}
+.friend-people__pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 30%;
+}

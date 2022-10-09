@@ -1,0 +1,83 @@
+@import './no-mobile.css';
+body {
+  display: flex;
+  margin: 0 auto;
+  width: 510px;
+  height: 100vh;
+}
+.left-menu {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 820px;
+  background-color: #ececed;
+}
+.left-menu > * {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22px;
+}
+.left-upper {
+  margin-top: 60px;
+  margin-bottom: 370px;
+}
+.left-upper > * {
+  margin-bottom: 40px;
+}
+.left-down > * {
+  margin-bottom: 40px;
+}
+.left-upper > .fa-user {
+  opacity: 0.3;
+}
+.left-upper > .fa-ellipsis {
+  opacity: 0.3;
+}
+.main-nav {
+  width: 410px;
+  height: 820px;
+  background-color: rgb(251, 255, 255);
+}
+.header-menu {
+  display: flex;
+  justify-content: flex-end;
+}
+.header-menu > * {
+  margin-left: 10px;
+}
+.main-menu > * {
+  font-size: 20px;
+  font-weight: 800;
+  margin-left: 15px;
+  margin-top: 30px;
+}
+.main-menu__icon {
+  float: right;
+  margin-right: 20px;
+}
+.main-menu__icon > * {
+  padding-left: 15px;
+}
+.main-profile {
+  display: flex;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 30%;
+}
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.main-profile > a {
+  text-decoration: none;
+}
+.profile-time {
+  margin-left: 180px;
+}

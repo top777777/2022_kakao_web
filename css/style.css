@@ -1,0 +1,117 @@
+@import './no-mobile.css';
+
+body {
+  margin: 0 auto;
+  width: 510px;
+  height: 100vh;
+}
+.screen {
+  display: flex;
+  flex-direction: column;
+  width: 510px;
+  height: 820px;
+  background-color: #ffe500;
+}
+.header-menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px;
+}
+.header-menu > * {
+  opacity: 0.4;
+  padding-left: 15px;
+}
+.kakao-logo {
+  width: 200px;
+  margin: 0 auto;
+}
+.kakao-login__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.kakao-login__box > * {
+  width: 300px;
+  height: 40px;
+  border: 1px solid gray;
+}
+.kakao-login__id {
+  border-bottom: none;
+}
+.kakao-login__button {
+  width: 306px;
+  height: 36px;
+  margin-top: 10px;
+  padding: 0;
+  background-color: rgb(250, 241, 241);
+}
+.kakao-login__div {
+  display: flex;
+  border: none;
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 320px;
+  justify-content: center;
+}
+.login-div__left {
+  width: 110px;
+  height: 0.1px;
+  opacity: 0.5;
+  margin-left: 0;
+  margin-right: 20px;
+}
+.login-div__right {
+  width: 110px;
+  height: 0.1px;
+  opacity: 0.5;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.login-div__text {
+  font-size: 11px;
+  opacity: 0.5;
+}
+.kakao-login__qr {
+  display: flex;
+  padding: 0px;
+  width: 308px;
+  height: 36px;
+  margin-left: 100px;
+  justify-content: center;
+}
+.kakao-login__auto {
+  display: flex;
+  padding: 0px;
+  width: 308px;
+  height: 36px;
+  margin-left: 10px;
+  margin-top: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.kakao-login__auto > * {
+  margin-right: 5px;
+}
+.login-check {
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  width: 20px;
+  height: 20px;
+  border: 0.5px solid gray;
+  border-radius: 50%;
+}
+.footer-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  opacity: 0.7;
+}
+.footer-menu__bar {
+  margin-left: 20px;
+  margin-right: 20px;
+}

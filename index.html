@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/124a781f37.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>KakaoWeb</title>
+  </head>
+  <body>
+    <main class="screen">
+      <nav class="header-menu">
+        <i class="fa-solid fa-gear"></i>
+        <span class="header-menu__bar">|</span>
+        <span class="header-menu__min">➖</span>
+        <span class="header-menu__end">❌</span>
+      </nav>
+      <img class="kakao-logo" src="./img/logo.png" />
+      <form action="friends.html">
+        <div class="kakao-login__box">
+          <input
+            class="kakao-login__id"
+            type="email"
+            required
+            minlength="4"
+            maxlength="20"
+            size="10"
+          />
+          <input
+            class="kakao-login__password"
+            type="password"
+            required
+            minlength="4"
+            maxlength="8"
+            size="10"
+          />
+          <input class="kakao-login__button" type="submit" value="로그인" />
+          <div class="kakao-login__div">
+            <hr class="login-div__left" color="gray" />
+            <span class="login-div__text">또는</span>
+            <hr class="login-div__right" color="gray" align="right" />
+          </div>
+        </div>
+        <input class="kakao-login__qr" type="submit" value="🎛️ QR코드 로그인" />
+      </form>
+      <div class="kakao-login__auto">
+        <button class="login-check"></button>
+        <span class="login-auto">자동로그인</span>
+        <span class="login-info">ⓘ</span>
+      </div>
+      <footer class="footer-menu">
+        <span class="kakao-id__search">카카오계정 찾기</span>
+        <span class="footer-menu__bar">|</span>
+        <span class="kakao-pw__reset">비밀번호 재설정</span>
+      </footer>
+    </main>
+    <div id="no-mobile">
+      <span>Bye, bye... Your Screen is too small...ㅠㅠ</span>
+    </div>
+  </body>
+</html>
